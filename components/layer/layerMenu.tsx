@@ -43,7 +43,7 @@ const LayerMenu: React.FC<{ layer: LayerProject }> = ({ layer }) => {
     }
 
     return (
-        <nav className="w-full overflow-x-hidden">
+        <nav className="w-full overflow-x-auto">
             <div className="flex lg:flex-col justify-start items-start lg:gap-4 gap-2 z-40">
                 {[
     { id: "overview", title: "Overview" },
